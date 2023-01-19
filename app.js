@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 console.log('in the node console');
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log(`Server is running & listening on port: ${PORT}`);
   });
 
